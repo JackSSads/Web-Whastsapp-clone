@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d27466f71.js" crossorigin="anonymous"></script>
+    <title>Whatsapp Web Clone</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="toobar-container">
+                <img class="user-photo" src="img/avatar1.png">
+                <div class="auxicons-toobar-container">
+                    <i class="fas fa-spinner"></i>
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fas fa-ellipsis"></i>
+                </div>
+            </div>
+            <div class="notification-container">
+                <i class="fas fa-bell-slash"></i>
+                <div class="receive-notification">Receba notificações de novas mensagens</div>
+                <div class="ativate-notification">Ativar notificações da área de trabalho
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="search-container">
+                <i id="contact-search" class="fas fa-search"></i>
+                <i id="filter" class="fa-solid fa-filter"></i>
+                <input type="text" name="search" id="search" placeholder="Procurar ou começãr uma nova conversa">
+            </div>
+            <div class="contacts-container active-chat">
+                <div class="contacts-box">
+                    <img class="user-photo" src="img/avatar2.png">
+                    <div class="user-info">
+                        <p class="user-name">Sabrina Matos</p>
+                        <p class="user-message-preview">
+                            <i class="fas fa-check-double"></i>Cadê meu dinherio?</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">22:40</p>
+                    </div>
+                </div>
+                <div class="contacts-box">
+                    <img class="user-photo" src="img/avatar3.png">
+                    <div class="user-info">
+                        <p class="user-name">Robesvaldo Miriniano (Agiota)</p>
+                        <p class="user-message-preview">Eu sei onde tu mora!!!</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">00:40</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                </div>
+                <div class="contacts-box">
+                    <img class="user-photo" src="img/avatar4.png">
+                    <div class="user-info">
+                        <p class="user-name">Godolores Gervasio</p>
+                        <p class="user-message-preview">Boa noite, caloteiro!</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">23:26</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img class="user-photo" src="img/avatar2.png">
+                    <p class="user-name">Sabrina Matos</p>
+                </div>
+                <ul class="chattool-container">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-paperclip"></i></li>
+                    <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-messagens">
+                    <p class="guest-message">Cadê meu dinherio?</p>
+                    <p class="user-message">Oi, bom dia!</p>
+                </div>
+            </div>
+            <div class="sendmessage-container">
+                <i class="fas fa-grin"></i>
+                <input type="text" name="message" id="charmessage" class="userinput" placeholder="Digite uma messagem">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
